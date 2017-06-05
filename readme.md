@@ -2,13 +2,14 @@
 
 A quick implementation to provide Swagger documentation as a CakePHP 2.0 plugin
 
-## Prerequisites
+## Installation
 
-Add [swagger-php](https://github.com/zircote/swagger-php/blob/master/README.md) composer dependency to the project
-
+```shell
+composer require gianksp/cakephp-swagger:dev-master
+```
+	
 ## Usage
 
- * Clone this repository to your Plugin folder within your CakePHP 2.x application.
  * Add the following to your Config/bootstrap.php file
  
 ```php
