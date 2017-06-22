@@ -21,7 +21,7 @@ class SwaggerController extends AppController
 	$this->response->type('json');
 	$this->autoRender = false;
 	
-	$swagger = \Swagger\scan([APP."Model",APP."Controller"]);
+	$swagger = \Swagger\scan([APP."Model",APP."Controller",APP."Lib"]);
 	return json_encode($swagger);
     }
 }
